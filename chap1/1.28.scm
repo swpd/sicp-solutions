@@ -1,8 +1,8 @@
 (define (expmod base exp m)
   (define (nontrivial? x)
     (if (and (not (= x 1))
-              (not (= x (- m 1)))
-              (= (remainder (square x) m) 1))
+             (not (= x (- m 1)))
+             (= (remainder (square x) m) 1))
       0
       x)
     )
