@@ -1,4 +1,4 @@
-; Alyssa's solution is correct but is much slower than the origin one.
+; Alyssa's solution is correct but is much slower than the original one.
 ; The modified version of procedure `expmod' will generate huge intermediate
 ; results which will make it considerably longer to get the same final result.
 
