@@ -40,7 +40,7 @@
 ; primary. To obtain a more reasonable results, the numbers in question are
 ; enlarged by 1e6.
 ; As from the results, we can see that when increasing the tested number by 10,
-; the time increases by roughly `(sart 10)'.
+; the time increases by roughly `(sqrt 10)'.
 
 (search-for-primes 1000000000 3)
 ;Result:
@@ -56,9 +56,9 @@
 
 (search-for-primes 100000000000 3)
 ;Result:
-;1000000000039 *** 1.17
-;1000000000061 *** 1.1799999999999997
-;1000000000063 *** 1.1899999999999995
+;100000000003 *** .3800000000000001
+;100000000019 *** .3700000000000001
+;100000000057 *** .3799999999999999
 
 (search-for-primes 1000000000000 3)
 ;Result:
