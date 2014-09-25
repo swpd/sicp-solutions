@@ -15,13 +15,13 @@
 ;
 ; A counter example:
 ; Suppose `x1 = [1, 2], y1 = [3, 4]; x2 = [2, 3], y2 = [4, 5]'.
-; Then `w(x1) = w(y1) = w(x2) = w(y2) = 1'.
+; Then `w(x1) = w(y1) = w(x2) = w(y2) = 1/2'.
 ;
 ; multiplication:
-;   `w(x1 * y1) = w([3, 8]) = 5' while `w(x2 * y2) = w([8, 15]) = 7'
+;   `w(x1 * y1) = w([3, 8]) = 5/2' while `w(x2 * y2) = w([8, 15]) = 7/2'
 ;
 ; division:
-;   `w(x1 / y1) = w([1/4, 2/3]) = 5/12' while `w(x2 / y2) = w([2/5, 3/4]) = 7/20'
+;   `w(x1 / y1) = w([1/4, 2/3]) = 5/24' while `w(x2 / y2) = w([2/5, 3/4]) = 7/40'
 ;
 ; Thus the width of the multiplication (or division) of two intervals isn't a
 ; function of the widths of the intervals being multiplied (or divided).
