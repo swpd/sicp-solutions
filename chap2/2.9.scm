@@ -1,4 +1,4 @@
-; Given two interval `x = [a, b], y = [c, d]' respectively.
+; Given two intervals `x = [a, b], y = [c, d]' respectively.
 ; Let `w(x)' be the function that calculates the width of an interval.
 ; We have `w(x) = (b - a) / 2, w(y) = (d - c) / 2'.
 ;
