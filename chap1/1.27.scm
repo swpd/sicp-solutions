@@ -5,7 +5,7 @@
                     m))
         (else
          (remainder (* base (expmod base (- exp 1) m))
-                    m))))    
+                    m))))
 
 (define (carmichael-num? n)
   (define (carmichael-num-iter cur)

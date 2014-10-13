@@ -27,7 +27,7 @@
                     m))
         (else
          (remainder (* base (expmod base (- exp 1) m))
-                    m)))) 
+                    m))))
 
 (define (fermat-test n)
   (define (try-it a)
