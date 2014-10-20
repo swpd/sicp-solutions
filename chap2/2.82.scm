@@ -30,3 +30,9 @@
       (if proc
           (apply proc (map contents args))
           (apply-coercion args)))))
+
+; Consider a mixed-type procedure `P' that takes two objects of type `A' and type
+; `B', and we have type `C' which can be coerced to `B'.
+; Besides, there are not procedures for coercing `A' to `C' nor `C' to `A'.
+; If we pass two objects of type `A' and type `C' to `P', `apply-generic' will
+; fail.
